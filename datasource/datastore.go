@@ -26,7 +26,7 @@ type AllTechnology struct {
 func (AT *AllTechnology) TechnologyInitialize() {
 	fmt.Println("Starting in Tech Initialize")
 
-	filename := "technologies.csv"
+	filename := "/technologies.csv"
 	currentDir, err := os.Getwd()
 	filename = currentDir + filename
 	file, err := os.Open(filename)
@@ -48,7 +48,7 @@ func (AT *AllTechnology) ShowTechnologiesAll() *[]*loader.Technologies {
 func (AP *AllProject) ProjectInitialize() {
 	fmt.Println("Starting in Project Initialize")
 
-	filename := "projects.csv"
+	filename := "/projects.csv"
 	currentDir, err := os.Getwd()
 	filename = currentDir + filename
 	file, err := os.Open(filename)
@@ -70,7 +70,7 @@ func (AP *AllProject) ShowProjectsAll() *[]*loader.ProjectTakenRow {
 
 func (AE *AllExperience) Initialize() {
 	fmt.Println("Starting in Initialize")
-	filename := "experience.csv"
+	filename := "/experience.csv"
 	currentDir, err := os.Getwd()
 	filename = currentDir + filename
 	file, err := os.Open(filename)
