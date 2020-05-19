@@ -27,6 +27,8 @@ func (AT *AllTechnology) TechnologyInitialize() {
 	fmt.Println("Starting in Tech Initialize")
 
 	filename := "technologies.csv"
+	currentDir, err := os.Getwd()
+	filename = currentDir + filename
 	file, err := os.Open(filename)
 	if err != nil {
 		log.Fatalln("Can't open file", err)
@@ -47,6 +49,8 @@ func (AP *AllProject) ProjectInitialize() {
 	fmt.Println("Starting in Project Initialize")
 
 	filename := "projects.csv"
+	currentDir, err := os.Getwd()
+	filename = currentDir + filename
 	file, err := os.Open(filename)
 	fmt.Println("Project File opened")
 	if err != nil {
@@ -67,6 +71,8 @@ func (AP *AllProject) ShowProjectsAll() *[]*loader.ProjectTakenRow {
 func (AE *AllExperience) Initialize() {
 	fmt.Println("Starting in Initialize")
 	filename := "experience.csv"
+	currentDir, err := os.Getwd()
+	filename = currentDir + filename
 	file, err := os.Open(filename)
 
 	if err != nil {
