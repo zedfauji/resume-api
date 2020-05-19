@@ -1,0 +1,30 @@
+Wizeline Mexico,Infrastructure Migration,Migration and conversation of Iaac from Cloudformation to Terraform.,"Cloudformation Terraform Chef Python Ruby AWS RDS EC2 S3 Route 53
+ELB ASG RDS Aurora New relic Beanstalk",2018,Devops Engineer
+Wizeline Mexico,Chef Cookbooks Compatibility management,"Written and updated all the chef cookbooks to
+follow backward compatibility.","Chef, Visual Code",2018,Devops Engineer
+Softtek Mexico,Monitoring Implementation,"Implementation of an intelligent monitoring along with deployment
+pipeline using cloud platforms. From Automatic deployment of instances to predictive monitoring.
+Using Splunk, DynatraceAiOps and AWS.","AWS,Splunk,Dynatrace,Cloudformation,Route53",2017,Senior Devops Consultant
+Softtek mexico,End to End Build Solution,"Implementation of Pipeline as code governing end to end pipeline
+configured through jenkins, Selenium and Kubernetes(Docker)","Azure, Jenkins, Selenium, Kubernetes, Docker",2017,Senior Devops Consultant
+Softtek Mexico,Virtualized platform implementation,"Implementation and maintenance of Kubernetes &
+Docker swarm, along with monitoring including sysdig, influxdb + telegraf + grafana.","Docker Swarm, Sysdig,Influxdb,Telegraph,grafana",2017,Senior Devops Consultant
+Softtek Mexico,Multi-Platform Monitoring,"Designed and implemented monitoring to support multi-platform
+applications including Linux and Windows, covering, from Java app to Azure Service Fabric
+Services. Includes Log aggregation by Logstash + Kibana + redis","Java,Logstash,Kibana,Redis,Docker swarm",2017,Senior Devops Consultant
+Kueski,AWS Cloud Migration,"Develop and setup and architecture to migrate the data from S3 to Google
+nearline with client side key encryption using both Pycrypto and AWS AMK.","AWS,Python",2016,Devops Engineer
+Kueski,Staging/Production Enviornment,"Setup whole staging, develop, testing environment on AWS
+VPC, and design backend for kueski.com","AWS,Python",2016,Devops Engineer
+Adobe India,Mesos Migration,"Migrated while hadoop based computational jobs for Adobe product to Mesos
+based infrastructure for an optimum resource sharing and optimization. Project included,
+Docker,Mesos, Marathon,Zookeeper,Java for some test cases. Hadoop.","Hadoop, Zookeeper, Java, Docker, Mesos",2015,SRE
+Nextag India,Monitoring Framework,"Designed , Developed and Integrated new monitoring solution
+companywide using Graphite , tattle , cubism.js , statsd, carbon , jmxtrans and Python","Javascript, Graphite, Tattle, Cubism.js,Carbon, JMX",2014,SRE
+Nextag India,Deployment Automation,"Designed and Developed Deployment Automation Application using
+Linkedin Glu platform to automate deployment process over 3000 servers.using Groovy , Python
+and Grails","Python, Groovy",2013,SRE
+Nextag India,Hadoop Operation Automation,"Automated all operation and manual work done in Hadoop using
+shell script and python","Hadoop, Python, Bash Scripts",2013,SRE
+Nextag India,Change Tracking System,"Been working on developing a system to track any change happens at
+Application , System, Network and DB level to provide effective technical solution",Java,2012,SRE
