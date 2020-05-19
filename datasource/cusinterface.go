@@ -1,7 +1,7 @@
 package datasource
 
 import (
-	".../loader"
+	"../loader"
 )
 
 type Experience interface {

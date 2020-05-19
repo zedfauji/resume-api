@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"../datasource"
+	"./datasource"
 	"github.com/gorilla/mux"
 )
 
