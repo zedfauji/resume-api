@@ -1,7 +1,7 @@
 package datasource
 
 import (
-	"../loader"
+	"github.com/zedfauji/resume-api/loader"
 )
 
 type Experience interface {
