@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
+	"../loader"
 	"github.com/landoop/tableprinter"
-	"github.com/zedfauji/resume-api/loader"
 )
 
 type AllExperience struct {
