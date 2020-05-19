@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"./datasource"
 	"github.com/gorilla/mux"
+	"github.com/zedfauji/resume-api/datasource"
 )
 
 var (
