@@ -26,7 +26,7 @@ type AllTechnology struct {
 func (AT *AllTechnology) TechnologyInitialize() {
 	fmt.Println("Starting in Tech Initialize")
 
-	filename := "/home/girish/tempproject/go-projects/training/resume-api/go/resume-api/datasource/technologies.csv"
+	filename := "technologies.csv"
 	file, err := os.Open(filename)
 	if err != nil {
 		log.Fatalln("Can't open file", err)
@@ -46,7 +46,7 @@ func (AT *AllTechnology) ShowTechnologiesAll() *[]*loader.Technologies {
 func (AP *AllProject) ProjectInitialize() {
 	fmt.Println("Starting in Project Initialize")
 
-	filename := "/home/girish/tempproject/go-projects/training/resume-api/go/resume-api/datasource/projects.csv"
+	filename := "projects.csv"
 	file, err := os.Open(filename)
 	fmt.Println("Project File opened")
 	if err != nil {
@@ -66,7 +66,7 @@ func (AP *AllProject) ShowProjectsAll() *[]*loader.ProjectTakenRow {
 
 func (AE *AllExperience) Initialize() {
 	fmt.Println("Starting in Initialize")
-	filename := "/home/girish/tempproject/go-projects/training/resume-api/go/resume-api/datasource/experience.csv"
+	filename := "experience.csv"
 	file, err := os.Open(filename)
 
 	if err != nil {

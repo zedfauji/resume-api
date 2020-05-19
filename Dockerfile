@@ -1,4 +1,4 @@
-FROM golang:1.6-onbuild
+FROM golang:1.7-onbuild
 
 RUN mkdir /resume-api
 
@@ -7,4 +7,4 @@ WORKDIR /resume-api
 
 RUN go build .
 
-CMD ["/resume-api/resume"]
+CMD ["/resume-api/resume-api"]
