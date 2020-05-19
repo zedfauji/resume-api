@@ -6,5 +6,5 @@ ADD . /resume-api/
 WORKDIR /resume-api
 
 RUN go build .
-
+EXPOSE 8080
 CMD ["/resume-api/resume-api"]
