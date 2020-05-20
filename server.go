@@ -39,6 +39,6 @@ func StartServer() {
 	r.HandleFunc("/projects", showAllProject)
 	r.HandleFunc("/technologies", showAllTechnologies)
 	log.Println("Starting Server Now")
-	log.Fatal(http.ListenAndServe(":8080", r))
+	log.Fatal(http.ListenAndServe(":80", r))
 
 }

@@ -6,6 +6,6 @@ ADD . /resume-api/
 WORKDIR /resume-api
 
 RUN go build .
-EXPOSE 8080
+EXPOSE 80
 COPY ./datasource/*.csv /resume-api/
 CMD ["/resume-api/resume-api"]
