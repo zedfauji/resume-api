@@ -38,6 +38,7 @@ func StartServer() {
 	r.HandleFunc("/experience/{company_name}", SearchCompany)
 	r.HandleFunc("/projects", showAllProject)
 	r.HandleFunc("/technologies", showAllTechnologies)
+	r.HandleFunc("/", showAllTechnologies)
 	log.Println("Starting Server Now")
 	log.Fatal(http.ListenAndServe(":80", r))
 
