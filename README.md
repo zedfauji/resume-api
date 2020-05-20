@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/zedfauji/resume-api.svg?branch=master)](https://travis-ci.org/zedfauji/resume-api)
 # Resume-API
 
 Hit at ---> For Experience http://35.185.246.203/experience
