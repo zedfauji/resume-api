@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/zedfauji/resume-api.svg?branch=master)](https://travis-ci.org/zedfauji/resume-api)
 # Resume-API
 
-Hit at ---> For Experience http://35.185.246.203/experience
-For Project http://35.185.246.203/projects
-For Technologies http://35.185.246.203/technologies
+Hit at ---> For Experience http://resume.girishdudhwal.com.	/experience
+For Project http://resume.girishdudhwal.com.	/projects
+For Technologies http://resume.girishdudhwal.com.	/technologies
 My Resume deployed over REST API ,
 1. Its written in GOLANG
 2. CI through travi CI
