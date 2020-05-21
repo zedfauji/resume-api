@@ -8,6 +8,7 @@ My Resume deployed over REST API ,
 1. Its written in GOLANG
 2. CI through travi CI
 3. Deployed Over GKE
+4. CICD , build and deployed through gitlab (Work in progress)
 4. Exposed Service for Public Access.
 
 Work in Progress . . . 
